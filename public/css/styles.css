@@ -131,7 +131,7 @@ footer{
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #EDB183;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -194,7 +194,7 @@ footer{
 }
 
 .active, .dot:hover {
-  background-color: #1e555c;
+  background-color: #EDB183;
   /* transition: bottom ease 0.5s; */
 }
 
