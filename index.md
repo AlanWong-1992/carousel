@@ -3,7 +3,7 @@
 <head>
 	<title>CSS Grid</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="stylesheet" type="text/css" href="public/css/styles.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -19,15 +19,15 @@
       <div class="slideshow-container">
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-          <img src="./images/img1.jpeg" style="width:100%">
+          <img src="public/images/img1.jpeg" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-          <img src="./images/img2.jpeg" style="width:100%">
+          <img src="public/images/img2.jpeg" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-          <img src="./images/img3.jpeg" style="width:100%">
+          <img src="public/images/img3.jpeg" style="width:100%">
         </div>
 
         <!-- Next and previous buttons -->
@@ -67,6 +67,6 @@
     </section>
 
 	</div>
-  <script type="text/javascript" src="./js/slideshow.js"></script>
+  <script type="text/javascript" src="public/js/slideshow.js"></script>
 </body>
 </html>
