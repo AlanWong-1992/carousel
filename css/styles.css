@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
 .wrapper {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -23,12 +26,12 @@ section {
 
 .welcome-section {
   height: 100vh;
-  background: #1e555c;
+  background: #5d2a42
 }
 
 .carousel-section {
   height: 1500px;
-  background: #5d2a42;
+  background: #1e555c;
   display: grid;
   grid-template-rows: 1fr 5fr 1fr 1fr;
 }
@@ -38,24 +41,28 @@ section {
   background: #EDB183;
 }
 
-.sections > h1, h2 {
-  font-size: 3rem;
-  font-family: 'Raleway', sans-serif;
+.section-header {
+  text-align: center;
+}
+
+.section-header > h1, h2 {
+  font-size: 6rem;
+  font-family: 'Spartan','Raleway', sans-serif;
   font-weight: 700;
   text-align: center;
   color: white;
 }
 
-h2 {
-  margin: 10rem 0 0 0;
+.section-header > h2 {
+  margin: 5rem 0 0 0;
 }
 
-.sections > p {
-  font-size: 1.5rem;
-  font-family: 'Poppins', sans-serif;
+.section-header > p {
+  font-size: 2rem;
+  font-family: 'Libre Baskerville', serif;
   font-weight: 200;
   font-style: italic;
-  color: #F15152;
+  color: #F6FBFC;
 }
 
 .contact-links{
