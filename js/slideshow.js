@@ -20,14 +20,15 @@ function showSlides(n) {
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+      // slides[i].style.display = "none";
+      slides[i].className = slides[i].className.replace(" mySlides-active", "");
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  slides[slideIndex-1].style.height = "20rem";
-  slides[slideIndex-1].style.width = "20rem";
+  slides[slideIndex-1].className += " mySlides-active";
+  // slides[slideIndex-1].style.height = "20rem";
+  // slides[slideIndex-1].style.width = "20rem";
   dots[slideIndex-1].className += " active";
 }
 
