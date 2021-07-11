@@ -123,7 +123,7 @@ footer{
 .slideshow-container {
   width: 100px;
   height: 100px;
-  margin-top: 4rem;
+  margin: 4rem auto 0 auto;
 }
 
 /* Hide the images by default */
@@ -145,7 +145,7 @@ footer{
 
 .btns-container {
   text-align: center;
-  margin: 3rem 0;
+  margin-bottom: 15rem  ;
 }
 
 /* Next & previous buttons */
@@ -227,16 +227,16 @@ footer{
 }
 
 /* media types and breakpoints */
-@media (min-width: 100px) {
+@media (min-width: 300px) {
   .slideshow-container {
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
   }
 }
 
-/* @media (min-width: 768px) {
+@media (min-height: 500px) {
   .slideshow-container {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
   }
-} */
+}
