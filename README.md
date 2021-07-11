@@ -1,4 +1,4 @@
-#Shift-Click Introduction to Coding Project
+# Shift-Click Introduction to Coding Project
 
 This project is the culmination of the 12 week introduction to programming course. Web technologies learnt during this time included HTML, CSS, and JS. This is a carousel built using those technologies.
 
